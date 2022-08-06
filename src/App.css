@@ -1,0 +1,14 @@
+html{
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans';
+}
+.App{
+  background-color: #f5f3f3;
+}
+

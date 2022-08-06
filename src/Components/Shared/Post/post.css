@@ -1,0 +1,53 @@
+.post_container {
+  width: 172px;
+  height: 212px;
+  background: #ffffff;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.post_container:active{
+    transform: scale(.95);
+}
+.post_container .post__image__container {
+    position: relative;
+}
+.post_container .post__image__container .danger_layer{
+    position: absolute;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #C82C1B 0%, rgba(200, 44, 27, 0.1) 100%);
+    opacity: 0.8;
+    width: 100%;
+}
+.post_container .post__image__container img {
+  width: 100%;
+  height: 136px;
+  object-fit: cover;
+}
+
+.post_container .post_info {
+  margin: 16px;
+}
+
+.post_container .postTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232b34;
+}
+
+.post_container .postStatus{
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #1E9C13;
+}
+
+.warning_post .postStatus {
+    color: #C82C1B;
+}

@@ -1,0 +1,37 @@
+.stat__container {
+  display: flex;
+  align-items: center;
+}
+.stat_icon {
+  width: 44px;
+  height: 44px;
+  background: #f2f3f5;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.stat_details .quantity {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232b34;
+}
+.stat_details .title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9b9fa3;
+}
+
+.warning_stat .stat_icon{
+    background-color: #FFE4E1;
+}
+.warning_stat .quantity {
+    color:#C82C1B
+}
+.warning_stat .title{
+    color: #EAA098
+}

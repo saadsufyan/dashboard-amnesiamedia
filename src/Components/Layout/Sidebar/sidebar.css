@@ -1,0 +1,49 @@
+.sidebar__container {
+  height: 100vh;
+  width: 240px;
+  padding: 1.5rem;
+  position: relative;
+}
+.sidebar__container::after{
+  content: "";
+  height: calc(100% - 3rem);
+  width: 2px;
+  background-color: #E3E3E8;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.route__list > ul > li {
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.route__list > ul > li:hover{
+  color: #000;
+}
+
+.route__list > ul {
+  margin-top: 32px;
+}
+
+.sidebar__btn {
+
+  margin-top: 28px;
+}
+.sidebar__footer {
+  padding-left: inherit;
+  padding-right: inherit;
+  padding-bottom: inherit;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.sidebar__progress {
+  margin: 1rem 0;
+}

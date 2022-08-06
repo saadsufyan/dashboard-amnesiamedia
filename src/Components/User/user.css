@@ -1,0 +1,21 @@
+.user__container {
+  display: flex;
+  align-items: center;
+  font-family: 'IBM Plex Sans';
+    font-style: normal;
+}
+.user__container .avatar{
+  margin-right: 1rem;
+}
+.user__container .greet {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #878999;
+}
+
+.user__container .user__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}

@@ -1,0 +1,13 @@
+.progressbar__container .progress__title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.progressbar__container .progressbar{
+    height: 4px;
+    width: 100%;
+}
+.progressbar__container .progress__completed{
+    height: 100%;
+}
